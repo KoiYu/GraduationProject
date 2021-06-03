@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.CaseMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.pojo.Case">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="condition" property="condition" />
+        <result column="step" property="step" />
+        <result column="expect" property="expect" />
+        <result column="dependence" property="dependence" />
+        <result column="type" property="type" />
+        <result column="level" property="level" />
+        <result column="bug_link" property="bugLink" />
+        <result column="result" property="result" />
+        <result column="status" property="status" />
+        <result column="founder" property="founder" />
+        <result column="operator" property="operator" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="project" property="project" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, title, condition, step, expect, dependence, type, level, bug_link, result, status, founder, operator, create_time, update_time, project
+    </sql>
+
+</mapper>
