@@ -7,6 +7,7 @@
         <id column="id" property="id" />
         <result column="name" property="name" />
         <result column="user" property="user" />
+        <result column="password" property="password" />
         <result column="email" property="email" />
         <result column="telephone" property="telephone" />
         <result column="department" property="department" />
@@ -17,7 +18,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, name, user, email, telephone, department, character, create_time, update_time
+        id, name, user, password, email, telephone, department, character, create_time, update_time
     </sql>
 
 </mapper>

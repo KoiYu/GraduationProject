@@ -1,9 +1,9 @@
 package com.example.serve.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.mapper.ProjectMapper;
-import com.example.pojo.Project;
-import com.example.service.IProjectService;
+import com.example.serve.mapper.ProjectMapper;
+import com.example.serve.pojo.Project;
+import com.example.serve.service.IProjectService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author yuliqiang
- * @since 2021-05-24
+ * @since 2021-06-04
  */
 @Service
 public class ProjectServiceImpl extends ServiceImpl<ProjectMapper, Project> implements IProjectService {

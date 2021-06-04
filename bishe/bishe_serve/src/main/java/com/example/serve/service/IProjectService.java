@@ -1,7 +1,7 @@
 package com.example.serve.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.pojo.Project;
+import com.example.serve.pojo.Project;
 
 /**
  * <p>
@@ -9,7 +9,7 @@ import com.example.pojo.Project;
  * </p>
  *
  * @author yuliqiang
- * @since 2021-05-24
+ * @since 2021-06-04
  */
 public interface IProjectService extends IService<Project> {
 

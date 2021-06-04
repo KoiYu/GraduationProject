@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
  * </p>
  *
  * @author yuliqiang
- * @since 2021-05-24
+ * @since 2021-06-04
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -42,10 +42,10 @@ public class Bug implements Serializable {
 
     private String message;
 
-    @ApiModelProperty(value = "0代表 P0，默认值\n1代表 P1\n2代表 P2\n3代表 P3")
+    @ApiModelProperty(value = "0代表 P0，默认值\\n1代表 P1\\n2代表 P2\\n3代表 P3")
     private Integer level;
 
-    @ApiModelProperty(value = "0代表新提交，默认值\n1代表已修复\n2代表已发布\n3代表重新打开")
+    @ApiModelProperty(value = "0代表新提交，默认值\\n1代表已修复\\n2代表已发布\\n3代表重新打开")
     private Integer status;
 
     private String founder;

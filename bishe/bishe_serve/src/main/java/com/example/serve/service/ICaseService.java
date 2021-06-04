@@ -1,7 +1,7 @@
 package com.example.serve.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.pojo.Case;
+import com.example.serve.pojo.Case;
 
 /**
  * <p>
@@ -9,7 +9,7 @@ import com.example.pojo.Case;
  * </p>
  *
  * @author yuliqiang
- * @since 2021-05-24
+ * @since 2021-06-04
  */
 public interface ICaseService extends IService<Case> {
 

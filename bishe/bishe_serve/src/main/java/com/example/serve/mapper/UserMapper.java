@@ -9,7 +9,7 @@ import com.example.serve.pojo.User;
  * </p>
  *
  * @author yuliqiang
- * @since 2021-05-24
+ * @since 2021-06-04
  */
 public interface UserMapper extends BaseMapper<User> {
 

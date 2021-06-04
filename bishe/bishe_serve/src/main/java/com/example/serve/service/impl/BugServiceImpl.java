@@ -1,9 +1,9 @@
 package com.example.serve.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.mapper.BugMapper;
-import com.example.pojo.Bug;
-import com.example.service.IBugService;
+import com.example.serve.mapper.BugMapper;
+import com.example.serve.pojo.Bug;
+import com.example.serve.service.IBugService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author yuliqiang
- * @since 2021-05-24
+ * @since 2021-06-04
  */
 @Service
 public class BugServiceImpl extends ServiceImpl<BugMapper, Bug> implements IBugService {

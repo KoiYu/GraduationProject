@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
  * </p>
  *
  * @author yuliqiang
- * @since 2021-05-24
+ * @since 2021-06-04
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -37,13 +37,15 @@ public class User implements Serializable {
 
     private String user;
 
+    private String password;
+
     private String email;
 
     private String telephone;
 
     private String department;
 
-    @ApiModelProperty(value = "0代表管理员\n1代表测试人员，默认值\n2代表开发人员")
+    @ApiModelProperty(value = "0代表管理员,1代表测试人员，默认值,2代表开发人员")
     private Integer character;
 
     @TableField("create_time")
